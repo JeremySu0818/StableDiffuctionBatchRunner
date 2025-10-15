@@ -1,0 +1,12 @@
+# 虛擬環境
+.venv/
+
+# PyInstaller 輸出
+build/
+dist/
+*.spec
+*.exe
+
+# 系統檔案
+Thumbs.db
+.DS_Store
