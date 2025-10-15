@@ -392,6 +392,7 @@ class BatchWorker(threading.Thread):
             "negative_prompt": neg,
             "steps": int(self.config.get("steps", DEFAULT_STEPS)),
             "sampler_name": self.config.get("sampler", DEFAULT_SAMPLER),
+            "scheduler": "Automatic",
             "cfg_scale": float(self.config.get("cfg_scale", DEFAULT_CFG)),
             "width": int(self.config.get("width", DEFAULT_WIDTH)),
             "height": int(self.config.get("height", DEFAULT_HEIGHT)),
